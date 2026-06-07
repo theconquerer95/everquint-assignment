@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@import "./styles/tokens/primitives.css";
+@import "./styles/tokens/semantic.css";
+@import "./styles/tokens/tailwind-theme.css";
+@import "./styles/base.css";

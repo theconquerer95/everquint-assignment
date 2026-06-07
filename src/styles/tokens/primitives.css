@@ -1,0 +1,86 @@
+/*
+ * Primitive tokens — raw design values.
+ * Components should not reference these directly; use semantic tokens instead.
+ */
+:root {
+  /* Neutral */
+  --primitive-neutral-0: oklch(100% 0 0);
+  --primitive-neutral-50: oklch(98.5% 0.002 247);
+  --primitive-neutral-100: oklch(96.8% 0.004 247);
+  --primitive-neutral-200: oklch(92.4% 0.008 247);
+  --primitive-neutral-300: oklch(86.9% 0.012 247);
+  --primitive-neutral-400: oklch(70.8% 0.018 247);
+  --primitive-neutral-500: oklch(55.4% 0.022 247);
+  --primitive-neutral-600: oklch(44.6% 0.024 247);
+  --primitive-neutral-700: oklch(37.2% 0.026 247);
+  --primitive-neutral-800: oklch(27.8% 0.028 247);
+  --primitive-neutral-900: oklch(20.8% 0.028 247);
+  --primitive-neutral-950: oklch(13.2% 0.028 247);
+
+  /* Brand — blue */
+  --primitive-blue-50: oklch(97.2% 0.018 254);
+  --primitive-blue-100: oklch(93.4% 0.038 254);
+  --primitive-blue-500: oklch(62.3% 0.188 254);
+  --primitive-blue-600: oklch(54.6% 0.215 254);
+  --primitive-blue-700: oklch(48.8% 0.198 254);
+
+  /* Feedback */
+  --primitive-red-50: oklch(97.1% 0.018 17);
+  --primitive-red-500: oklch(62.8% 0.225 25);
+  --primitive-red-600: oklch(55.4% 0.218 25);
+  --primitive-red-700: oklch(48.2% 0.195 25);
+
+  --primitive-amber-50: oklch(98.2% 0.028 85);
+  --primitive-amber-500: oklch(76.9% 0.165 75);
+  --primitive-amber-700: oklch(55.4% 0.135 65);
+
+  --primitive-emerald-50: oklch(97.5% 0.032 155);
+  --primitive-emerald-500: oklch(69.6% 0.155 155);
+  --primitive-emerald-700: oklch(52.4% 0.118 155);
+
+  /* Status accents */
+  --primitive-violet-50: oklch(97.2% 0.022 293);
+  --primitive-violet-500: oklch(60.8% 0.195 293);
+  --primitive-violet-700: oklch(48.2% 0.168 293);
+
+  --primitive-sky-50: oklch(97.5% 0.018 230);
+  --primitive-sky-500: oklch(68.5% 0.145 230);
+  --primitive-sky-700: oklch(50.2% 0.118 230);
+
+  /* Radius */
+  --primitive-radius-sm: 0.25rem;
+  --primitive-radius-md: 0.375rem;
+  --primitive-radius-lg: 0.5rem;
+  --primitive-radius-xl: 0.75rem;
+
+  /* Shadows */
+  --primitive-shadow-sm: 0 1px 2px oklch(20% 0.02 247 / 0.06);
+  --primitive-shadow-md: 0 4px 12px oklch(20% 0.02 247 / 0.08);
+  --primitive-shadow-lg: 0 8px 24px oklch(20% 0.02 247 / 0.1);
+
+  /* Typography scale */
+  --primitive-text-xs: 0.75rem;
+  --primitive-text-sm: 0.875rem;
+  --primitive-text-base: 1rem;
+  --primitive-text-lg: 1.125rem;
+  --primitive-text-xl: 1.25rem;
+  --primitive-text-2xl: 1.5rem;
+
+  /* Line heights */
+  --primitive-leading-tight: 1.25;
+  --primitive-leading-normal: 1.5;
+  --primitive-leading-relaxed: 1.625;
+
+  /* Spacing */
+  --primitive-space-0: 0;
+  --primitive-space-1: 0.25rem;
+  --primitive-space-2: 0.5rem;
+  --primitive-space-3: 0.75rem;
+  --primitive-space-4: 1rem;
+  --primitive-space-5: 1.25rem;
+  --primitive-space-6: 1.5rem;
+  --primitive-space-8: 2rem;
+  --primitive-space-10: 2.5rem;
+  --primitive-space-12: 3rem;
+  --primitive-space-16: 4rem;
+}

@@ -1,0 +1,115 @@
+/*
+ * Tailwind theme bridge — maps semantic CSS variables to utility classes.
+ * Kept separate from semantic.css so token files stay standard CSS.
+ */
+@theme inline {
+  /* Surfaces */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-surface-overlay: var(--surface-overlay);
+
+  /* Borders */
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-border-focus: var(--border-focus);
+
+  /* Text */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-inverse: var(--text-inverse);
+  --color-text-link: var(--text-link);
+
+  /* Interactive */
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-subtle: var(--primary-subtle);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-border: var(--secondary-border);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-hover: var(--destructive-hover);
+  --color-destructive-subtle: var(--destructive-subtle);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  /* Feedback */
+  --color-success: var(--success);
+  --color-success-subtle: var(--success-subtle);
+  --color-success-foreground: var(--success-foreground);
+
+  --color-warning: var(--warning);
+  --color-warning-subtle: var(--warning-subtle);
+  --color-warning-foreground: var(--warning-foreground);
+
+  --color-error: var(--error);
+  --color-error-subtle: var(--error-subtle);
+  --color-error-foreground: var(--error-foreground);
+
+  --color-info: var(--info);
+  --color-info-subtle: var(--info-subtle);
+  --color-info-foreground: var(--info-foreground);
+
+  /* Priority */
+  --color-priority-low: var(--priority-low);
+  --color-priority-low-subtle: var(--priority-low-subtle);
+  --color-priority-low-foreground: var(--priority-low-foreground);
+
+  --color-priority-medium: var(--priority-medium);
+  --color-priority-medium-subtle: var(--priority-medium-subtle);
+  --color-priority-medium-foreground: var(--priority-medium-foreground);
+
+  --color-priority-high: var(--priority-high);
+  --color-priority-high-subtle: var(--priority-high-subtle);
+  --color-priority-high-foreground: var(--priority-high-foreground);
+
+  /* Status */
+  --color-status-backlog: var(--status-backlog);
+  --color-status-backlog-subtle: var(--status-backlog-subtle);
+  --color-status-backlog-foreground: var(--status-backlog-foreground);
+
+  --color-status-in-progress: var(--status-in-progress);
+  --color-status-in-progress-subtle: var(--status-in-progress-subtle);
+  --color-status-in-progress-foreground: var(--status-in-progress-foreground);
+
+  --color-status-done: var(--status-done);
+  --color-status-done-subtle: var(--status-done-subtle);
+  --color-status-done-foreground: var(--status-done-foreground);
+
+  /* Focus */
+  --color-ring: var(--ring);
+  --color-ring-offset: var(--ring-offset);
+
+  /* Radius */
+  --radius-control: var(--radius-control);
+  --radius-card: var(--radius-card);
+  --radius-modal: var(--radius-modal);
+
+  /* Shadows */
+  --shadow-card: var(--shadow-card);
+  --shadow-overlay: var(--shadow-overlay);
+
+  /* Typography */
+  --text-body: var(--font-body);
+  --text-body-lg: var(--font-body-lg);
+  --text-label: var(--font-label);
+  --text-heading: var(--font-heading);
+  --text-title: var(--font-title);
+
+  --leading-body: var(--leading-body);
+  --leading-heading: var(--leading-heading);
+
+  /* Spacing */
+  --spacing-xs: var(--space-xs);
+  --spacing-sm: var(--space-sm);
+  --spacing-md: var(--space-md);
+  --spacing-lg: var(--space-lg);
+  --spacing-xl: var(--space-xl);
+  --spacing-2xl: var(--space-2xl);
+}

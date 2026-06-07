@@ -1,0 +1,117 @@
+/*
+ * Semantic tokens — intent-based names consumed by components.
+ * Tailwind utility mapping lives in tailwind-theme.css.
+ */
+:root {
+  /* Surfaces */
+  --background: var(--primitive-neutral-50);
+  --foreground: var(--primitive-neutral-900);
+  --surface: var(--primitive-neutral-0);
+  --surface-raised: var(--primitive-neutral-0);
+  --surface-sunken: var(--primitive-neutral-100);
+  --surface-overlay: var(--primitive-neutral-0);
+
+  /* Borders */
+  --border: var(--primitive-neutral-200);
+  --border-strong: var(--primitive-neutral-300);
+  --border-focus: var(--primitive-blue-500);
+
+  /* Text */
+  --text-primary: var(--primitive-neutral-900);
+  --text-secondary: var(--primitive-neutral-600);
+  --text-muted: var(--primitive-neutral-500);
+  --text-inverse: var(--primitive-neutral-0);
+  --text-link: var(--primitive-blue-600);
+
+  /* Interactive — primary */
+  --primary: var(--primitive-blue-600);
+  --primary-hover: var(--primitive-blue-700);
+  --primary-subtle: var(--primitive-blue-50);
+  --primary-foreground: var(--primitive-neutral-0);
+
+  /* Interactive — secondary */
+  --secondary: var(--primitive-neutral-0);
+  --secondary-hover: var(--primitive-neutral-100);
+  --secondary-border: var(--primitive-neutral-300);
+  --secondary-foreground: var(--primitive-neutral-800);
+
+  /* Interactive — destructive */
+  --destructive: var(--primitive-red-600);
+  --destructive-hover: var(--primitive-red-700);
+  --destructive-subtle: var(--primitive-red-50);
+  --destructive-foreground: var(--primitive-neutral-0);
+
+  /* Feedback */
+  --success: var(--primitive-emerald-500);
+  --success-subtle: var(--primitive-emerald-50);
+  --success-foreground: var(--primitive-emerald-700);
+
+  --warning: var(--primitive-amber-500);
+  --warning-subtle: var(--primitive-amber-50);
+  --warning-foreground: var(--primitive-amber-700);
+
+  --error: var(--primitive-red-500);
+  --error-subtle: var(--primitive-red-50);
+  --error-foreground: var(--primitive-red-700);
+
+  --info: var(--primitive-sky-500);
+  --info-subtle: var(--primitive-sky-50);
+  --info-foreground: var(--primitive-sky-700);
+
+  /* Task priority */
+  --priority-low: var(--primitive-neutral-500);
+  --priority-low-subtle: var(--primitive-neutral-100);
+  --priority-low-foreground: var(--primitive-neutral-700);
+
+  --priority-medium: var(--primitive-amber-500);
+  --priority-medium-subtle: var(--primitive-amber-50);
+  --priority-medium-foreground: var(--primitive-amber-700);
+
+  --priority-high: var(--primitive-red-500);
+  --priority-high-subtle: var(--primitive-red-50);
+  --priority-high-foreground: var(--primitive-red-700);
+
+  /* Task status */
+  --status-backlog: var(--primitive-neutral-500);
+  --status-backlog-subtle: var(--primitive-neutral-100);
+  --status-backlog-foreground: var(--primitive-neutral-700);
+
+  --status-in-progress: var(--primitive-sky-500);
+  --status-in-progress-subtle: var(--primitive-sky-50);
+  --status-in-progress-foreground: var(--primitive-sky-700);
+
+  --status-done: var(--primitive-emerald-500);
+  --status-done-subtle: var(--primitive-emerald-50);
+  --status-done-foreground: var(--primitive-emerald-700);
+
+  /* Focus & rings */
+  --ring: var(--primitive-blue-500);
+  --ring-offset: var(--primitive-neutral-0);
+
+  /* Radius (semantic aliases) */
+  --radius-control: var(--primitive-radius-md);
+  --radius-card: var(--primitive-radius-lg);
+  --radius-modal: var(--primitive-radius-xl);
+
+  /* Shadows (semantic aliases) */
+  --shadow-card: var(--primitive-shadow-sm);
+  --shadow-overlay: var(--primitive-shadow-lg);
+
+  /* Typography (semantic aliases) */
+  --font-body: var(--primitive-text-sm);
+  --font-body-lg: var(--primitive-text-base);
+  --font-label: var(--primitive-text-xs);
+  --font-heading: var(--primitive-text-2xl);
+  --font-title: var(--primitive-text-lg);
+
+  --leading-body: var(--primitive-leading-normal);
+  --leading-heading: var(--primitive-leading-tight);
+
+  /* Spacing (semantic aliases) */
+  --space-xs: var(--primitive-space-1);
+  --space-sm: var(--primitive-space-2);
+  --space-md: var(--primitive-space-4);
+  --space-lg: var(--primitive-space-6);
+  --space-xl: var(--primitive-space-8);
+  --space-2xl: var(--primitive-space-12);
+}
