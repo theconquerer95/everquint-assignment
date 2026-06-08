@@ -106,12 +106,4 @@
 
   --leading-body: var(--primitive-leading-normal);
   --leading-heading: var(--primitive-leading-tight);
-
-  /* Spacing (semantic aliases) */
-  --space-xs: var(--primitive-space-1);
-  --space-sm: var(--primitive-space-2);
-  --space-md: var(--primitive-space-4);
-  --space-lg: var(--primitive-space-6);
-  --space-xl: var(--primitive-space-8);
-  --space-2xl: var(--primitive-space-12);
 }
