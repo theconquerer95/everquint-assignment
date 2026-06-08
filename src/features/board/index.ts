@@ -1,1 +1,3 @@
-// Board view — columns, task cards, drag-and-drop / status changes
+export { Board } from './Board';
+export { BoardColumn } from './BoardColumn';
+export { TaskCard } from './TaskCard';

@@ -1,1 +1,2 @@
-// Task create/edit forms and task-specific UI
+export { TaskForm } from './TaskForm';
+export { TaskFormModal } from './TaskFormModal';
