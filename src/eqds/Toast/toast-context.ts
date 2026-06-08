@@ -1,7 +1,6 @@
 import { createContext } from 'react'
-import type { AlertVariant } from '../Alert/alert-context'
 
-export type ToastVariant = AlertVariant
+export type ToastVariant = 'success' | 'warning' | 'error' | 'info'
 
 export interface ToastItem {
   id: string
